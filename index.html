@@ -1,0 +1,157 @@
+<!-- @format
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DSA Visualizer - Bubble Sort</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bubble Sort Visualizer</h1>
+      <div class="controls">
+        <input
+          type="text"
+          id="arrayInput"
+          placeholder="Enter numbers separated by commas"
+          style="padding: 10px; width: 300px; margin-right: 10px" />
+        <button onclick="handleCustomArray()">Use Custom Array</button>
+        <button onclick="generateArray()">Generate New Array</button>
+        <button onclick="bubbleSort()">Start Bubble Sort</button>
+        <button onclick="selectionSort()">Start Selection Sort</button>
+      </div>
+
+      <div class="bar-container" id="barContainer"></div>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <input type="text" id="customInput" placeholder="Enter comma-separated numbers" />
+            <button onclick="generateArray()">Generate Array</button>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="heap">Heap Sort</option>
+            </select>
+            <button onclick="sortArray()">Sort</button>
+        </div>
+        <div class="visualizer" id="bars"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <input type="text" id="customInput" placeholder="Enter comma-separated numbers" />
+            <button onclick="generateArray()">Generate Array</button>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="heap">Heap Sort</option>
+            </select>
+            <button onclick="sortArray()">Sort</button>
+        </div>
+        <div class="visualizer" id="bars"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <input type="text" id="customInput" placeholder="Enter comma-separated numbers" />
+            <button onclick="generateArray()">Generate Array</button>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="heap">Heap Sort</option>
+            </select>
+            <button onclick="sortArray()">Sort</button>
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="10" max="1000" value="50" step="10" />
+        </div>
+        <div class="visualizer" id="bars"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <input type="text" id="customInput" placeholder="Enter comma-separated numbers" />
+            <button onclick="generateArray()">Generate Array</button>
+            <select id="algorithm">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="merge">Merge Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="heap">Heap Sort</option>
+            </select>
+            <label for="direction">Order:</label>
+            <select id="direction">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+            <button onclick="sortArray()">Sort</button>
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="10" max="1000" value="50" step="10" />
+        </div>
+        <div class="visualizer" id="bars"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
